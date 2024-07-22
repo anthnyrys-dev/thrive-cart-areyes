@@ -14,4 +14,4 @@ To install Project Title, follow these steps:
 1. Clone the repository: **`git clone https://github.com/username/project-title.git`**
 2. Navigate to the project directory: **`cd thrive-cart-areyes`**
 3. Install dependencies: **`composer install`**
-4. Build the project: **`docker-compose up --build`**
+4. Build the project: **`docker-compose up --d`**
