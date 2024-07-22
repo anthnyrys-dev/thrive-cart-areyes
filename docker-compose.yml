@@ -1,0 +1,6 @@
+services:
+  php:
+    build: .
+    volumes:
+      - .:/var/www/html
+    command: php test.php

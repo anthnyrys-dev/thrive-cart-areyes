@@ -1,0 +1,16 @@
+{
+    "name": "kianreyes/thrive-cart-areyes",
+    "description": "Sales System",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kianreyes\\ThriveCartAreyes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anthony Kian Reyes"
+        }
+    ],
+    "require": {}
+}
