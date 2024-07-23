@@ -24,8 +24,11 @@ To install Project Title, follow these steps:
 7. Go inside to the container **`docker exec -it thrivecart-app bash`**
 
 ## **Shell Commands**
-1. **`docker-compose exec app vendor/bin/phpunit --version`**
-2. **`docker-compose exec app vendor/bin/phpstan --version`**
+1. **`docker-compose exec app vendor/bin/phpunit`**
+2. **`docker-compose exec app vendor/bin/phpstan analyse src`**
+3. **`docker-compose exec app vendor/bin/phpstan analyse src tests`**
+4. **`docker-compose exec app vendor/bin/phpunit --version`**
+5. **`docker-compose exec app vendor/bin/phpstan --version`**
 
 ## **Screenshots**
 ### Run test.php script
@@ -34,3 +37,5 @@ To install Project Title, follow these steps:
 ![Alt text](screenshots/dependencies.png "Phpunit / Phpstan")
 ### Unit tests
 ![Alt text](screenshots/unit-test-result.png "Phpunit / Phpstan")
+### Phpstan
+![Alt text](screenshots/phpstan-result.png "Phpunit / Phpstan")
