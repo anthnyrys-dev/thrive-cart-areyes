@@ -9,17 +9,26 @@ create a proof of concept for their new sales system.
 
 ## **Pre-requisites**
 1. Docker
-2. Composer
-3. GIT
+2. GIT
 
 ## **Installation**
 
 To install Project Title, follow these steps:
 
-1. Clone the repository: **`git clone https://github.com/username/project-title.git`**
+1. Clone the repository: **`git clone https://github.com/anthnyrys-dev/thrive-cart-areyes.git`**
 2. Navigate to the project directory: **`cd thrive-cart-areyes`**
-3. Install dependencies: **`composer install`**
-4. Build the project: **`docker-compose up --d`**
+4. Build the project: **`docker-compose build app`**
+5. Run the environment in background mode: **`docker-compose up -d`**
+4. Remove composer.lock: **`docker-compose exec app rm -rf vendor composer.lock`**
+6. Run composer install **`docker-compose exec app composer install`**
+7. Go inside to the container **`docker exec -it thrivecart-app bash`**
+
+## **Shell Commands**
+1. **`docker-compose exec app vendor/bin/phpunit --version`**
+2. **`docker-compose exec app vendor/bin/phpstan --version`**
 
 ## **Screenshots**
+### Run test.php script
 ![Alt text](screenshots/docker-container-result.png "docker container result")
+### Dependencies
+![Alt text](screenshots/dependencies.png "Phpunit / Phpstan")
