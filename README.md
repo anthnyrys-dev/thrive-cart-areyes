@@ -32,3 +32,5 @@ To install Project Title, follow these steps:
 ![Alt text](screenshots/docker-container-result.png "docker container result")
 ### Dependencies
 ![Alt text](screenshots/dependencies.png "Phpunit / Phpstan")
+### Unit tests
+![Alt text](screenshots/unit-test-result.png "Phpunit / Phpstan")
