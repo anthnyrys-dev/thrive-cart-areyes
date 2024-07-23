@@ -67,7 +67,7 @@ class Basket
 
         $total += $this->deliveryChargeRules->charge($total);
 
-        return $total;
+        return number_format($total, 2);
     }
 
     /**

@@ -10,6 +10,6 @@ class Helpers
      */
     public static function format(float $total): string
     {
-        return "$" . number_format($total, 2);
+        return "$" . $total;
     }
 }
